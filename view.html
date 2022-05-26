@@ -2,9 +2,32 @@
 <html>
     <head>
         <link rel="stylesheet" src="style.css">
-        <title>Daniel Hadley's Personal Portfolio</title>
+        <title>Daniel Hadley's Online Resume</title>
     </head>
     <body>
+        <nav class="nav-bar">
+            <h2 class="about link">
+                <a href="#about">About</a>
+            </h2>
+
+            <h2 class="projects link">
+                <a href="#projects">Projects</a>
+            </h2>
+
+            <h2 class="skills-link">
+                <a href="#skills">Skills</a>
+            </h2>
+
+            <h2 class="goals-link">
+                <a href="#goals">Goals</a>
+            </h2>
+
+            <h2 class="contact-link">
+                <a href="#contact">Contact</a>
+            </h2>
+
+
+        </nav>
         <h1>
             Welcome to my Online Resume!
         </h1>
@@ -13,7 +36,7 @@
         </p>
         <section class="about" id="about">
         <h2>
-            About me
+            About Me
         </h2>
         <p>
             I am currently attending Spring Hill College in Mobile, Alabama. I am set to graduate in 2024 with a degree in Computer Information Systems
@@ -23,7 +46,7 @@
             Projects
         </h2>
         <section class="projects" id="about"> <!-- Add images above each item and make each item interactive (check out CSS flexbox)-->
-            <div>
+            <div class="website">
                 <li>This website</li>
                 <p>
                     Yes, I wrote all the code for this website. You can find it <a class='link-to-github-portfolio'>
@@ -31,7 +54,7 @@
                                                                                 </a>
                 </p>
             </div>
-            <div>
+            <div class="baseball-project">
             <li>
                 Analysis of Baseball Lineups
             </li>
@@ -56,7 +79,7 @@
 
         </section>
 
-        <section>
+        <section class="skills" id="skills">
             <h2>
                 Skills
             </h2>
@@ -150,7 +173,13 @@
             Thank you for visiting my website. 
         </p>
         <section class="social-media-links">
-        <h2>Find Me On:</h2>
+        <div class="line left"></div>
+        <section class="social-media-images">
+            <a href="" class="facebook-icon"><img src=''></a>
+            <a href="" class="linkedin-icon"><img src=''></a>
+            <a href="" class="twitter-icon"><img src=''></a>
+        </section>
+        <div class="line right"></div>
             </section>
     </footer>
 </html>
