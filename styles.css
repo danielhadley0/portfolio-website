@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+section > h2 {
+    text-align: center;
+}
+
+.nav-bar {
+    background-color:midnightblue;
+}
+
+body {
+    background-color: blue;
+}
