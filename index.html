@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+        <link rel="stylesheet" href="./styles.css" >
+        <title>Daniel Hadley's Online Resume</title>
+
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <h2 class="about link">
+                <a href="#about">About</a>
+            </h2>
+
+            <h2 class="projects link">
+                <a href="#projects">Projects</a>
+            </h2>
+
+            <h2 class="skills-link">
+                <a href="#skills">Skills</a>
+            </h2>
+
+            <h2 class="goals-link">
+                <a href="#goals">Goals</a>
+            </h2>
+
+            <h2 class="contact-link">
+                <a href="#contact">Contact</a>
+            </h2>
+
+
+        </nav>
+        <h1 class="header">
+            Welcome to my Online Resume!
+        </h1>
+        <p>
+            Thank you for visiting my online portfolio. Below, you will find some projects that I have completed over the years, as well as other jobs and interesting things that I have accomplished over the years. 
+        </p>
+        <section class="about" id="about">
+        <h2>
+            About Me
+        </h2>
+        <p>
+            I am currently attending Spring Hill College in Mobile, Alabama. I am set to graduate in 2024 with a degree in Computer Information Systems
+        </p>
+        </section>
+
+        <section class="projects" id="about"> <!-- Add images above each item and make each item interactive (check out CSS flexbox)-->
+            <h2>
+                Projects
+            </h2>
+            
+            <div class="website">
+                <li>This website</li>
+                <p>
+                    Yes, I wrote all the code for this website. You can find it <a class='link-to-github-portfolio'>
+                                                                                    here.
+                                                                                </a>
+                </p>
+            </div>
+            <div class="baseball-project">
+            <li>
+                Analysis of Baseball Lineups
+            </li>
+            <p>
+                For this project, I analyzed the way in which baseball lineups are configured. As an avid baseball fan, I couldn't help but wonder if the standard way that lineups are configured is the most optimal way. For this project, I created a python program that simulates an entire season of baseball. I then tested all 362,880 possible lineup combinations in the program. You can find the results
+                <a class="link-to-githib-baseball-project">here.</a>
+                
+            </p>
+            </div>
+        </section>
+
+        <section class="acheivements" id="acheivements">
+            <h2>
+                Acheivements
+            </h2>
+            <li>
+                Selected as the Resident Advisor of the Year for the 2021-2022 schoolyear.
+            </li>
+            <li>
+                Selected to be a Senior Resident Advisor for the 2022-2023 schoolyear.
+            </li>
+
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>
+                Skills
+            </h2>
+            <li class="python">
+                Python
+            </li>
+            <li class="html">
+                HTML
+            </li>
+            <li class="css">
+                CSS
+            </li>
+            <li class="c#">
+                C#
+            </li>
+            <li class="javascript">
+                JavaScript
+            </li>
+            <li class="communication">
+                Communication
+            </li>
+            <li class="collaboration">
+                Collaboration
+            </li>
+            <li class="time-and-project-managment">
+                Time and Project Managment
+            </li>
+            <li class="math">
+                Math
+            </li>
+        </section>
+
+        <section class="goals" id="goals">
+            <h2>
+                Goals
+            </h2>
+            <p>
+                As I progress through college and begin my proffessional career, there are a few goals that I have in mind. The first one being that I want to work with technology. Tech runs our world, and I want to help innovate to solve problems that may arise. I also want to create software that helps to solve problems. 
+            </p>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>
+                Contact Me
+            </h2>
+            <p class="contact-caption">
+                Wanna get in touch with me? Fill out the form to send me an email, or call me at (251) 586-3356.
+            </p>
+            <form class="contact-form" >
+                <h3 class="contact-info">
+                    Contact Info
+                </h3>
+
+                <div class="first-name">
+                    <label for="first-name">First Name (Required)</label>
+                    <input type='text' class="first-name" id="first-name" placeholder='Please enter your first name.' required>
+                </div>
+
+                <div class="last-name">
+                    <label for="last-name">Last Name (Required)</label>
+                    <input type='text' class="last-name" id="last-name" placeholder='Please enter your last name.' required>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email (Optional)</label>
+                    <input type="email" class="email" id="email" placeholder="Please enter your email address.">
+                </div>
+
+                <div class="phone-number">
+                    <label for="phone-number">Phone Number (Optional)</label>
+                    <input type="text" class="phone-number" id="phone-number" placeholder="Please enter your phone number.">
+                </div>
+                
+                <div class="extension">
+                    <label for="extension">Extension</label>
+                    <input type="text" class="extension" id="extension" placeholder="Please enter your extension if neccessary.">
+                </div>
+
+                
+                <textarea class="message" placeholder="Enter your message here."></textarea>
+
+                <input type="submit">
+            </form>
+
+        </section>
+
+    
+    </body>
+    <footer>
+        <p class="thank-you-message">
+            Thank you for visiting my website. 
+        </p>
+        <section class="social-media-links">
+        <div class="line left"></div>
+        <section class="social-media-images">
+            <a href="" class="facebook-icon"><img src=''></a>
+            <a href="" class="linkedin-icon"><img src=''></a>
+            <a href="" class="twitter-icon"><img src=''></a>
+        </section>
+        <div class="line right"></div>
+            </section>
+    </footer>
+</html>
