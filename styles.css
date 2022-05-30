@@ -1,14 +1,43 @@
-.header {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+body {
+    height:125vh;
+    background-color: aqua;
+    background-size: cover;
+    margin-top:80px;
+    padding: 30px;
 
 }
 
-section > h2 {
-    text-align: center;
+
+nav {
+    background-color: black;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    height:80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
 }
 
-.nav-bar {
-    background-color:midnightblue;
+
+nav * {
+    display: inline; 
+
+
 }
 
+
+nav ul {
+    float: right;
+}
+
+header li {
+    margin: 20px;
+}
+
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
