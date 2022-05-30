@@ -4,6 +4,7 @@ body {
     background-size: cover;
     margin-top:80px;
     padding: 30px;
+    background-image: url(https://media.istockphoto.com/photos/magic-blue-abstract-blur-background-picture-id625270566?b=1&k=20&m=625270566&s=170667a&w=0&h=y0UFufcwCmqJgsgGSB4XvYZrNbW5QuhVPZtcNBuHk-g=)
 
 }
 
@@ -18,6 +19,9 @@ nav {
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
+    z-index: 1;
+
+
 }
 
 
@@ -28,16 +32,37 @@ nav * {
 }
 
 
-nav ul {
-    float: right;
-}
+
 
 header li {
     margin: 20px;
+
 }
 
 
 header li a {
     text-decoration: none;
     color: white;
+}
+
+.square-top-left {
+    width:50%;
+    height: 1000px;
+    background-color: black;
+
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    margin-top: 0px;
+
+
+}
+
+.square-caption {
+    color: white;
+    height: 50%;
+    vertical-align: middle;
+
+   
+
 }
