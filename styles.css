@@ -183,6 +183,22 @@ header li a {
     }
 }
 
+@keyframes hide-about-font {
+    0% {
+        color: transparent;
+        font-size: 0%;
+    }
+
+    50% {
+        color: transparent;
+        font-size: 40%;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
 
 .about {
     width: 0%;
@@ -193,6 +209,11 @@ header li a {
     animation-fill-mode: forwards;
 }
 
+
+.about *{
+    animation-name: hide-about-font;
+    animation-duration: 2s;
+}
 
 
 
